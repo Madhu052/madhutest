@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.10/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.10",
+  "version": "1.0.0",
+  "id": "YOUR-APP-ID",
+  "packageName": "com.example.teamsapp",
+  "developer": {
+    "name": "Your Name",
+    "websiteUrl": "https://yourwebsite.com",
+    "privacyUrl": "https://yourwebsite.com/privacy",
+    "termsOfUseUrl": "https://yourwebsite.com/terms"
+  },
+  "name": {
+    "short": "Teams App",
+    "full": "Teams App"
+  },
+  "description": {
+    "short": "A custom Teams app",
+    "full": "A custom Teams app built for demonstration."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["yourwebsite.com"]
+}
+
